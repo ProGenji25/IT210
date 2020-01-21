@@ -1,0 +1,62 @@
+:root {
+
+    /* variations of your primary color */
+
+    --primary: #673ab7 !important;
+
+    --primary-light:  #9575cd !important;
+
+    --primary-dark:  #512da8 !important;
+
+    --primary-text:  #ffffff !important;
+
+    --primary-text-color:  #000000 !important;
+
+    /* variations of your secondary color */
+
+    --secondary:  #607d8b !important;
+
+    --secondary-light:  #90a4ae !important;
+
+    --secondary-dark:  #455a64 !important;
+
+    --secondary-text:  #ffffff !important;
+
+    --secondary-text-color:  #000000 !important;
+
+}
+
+body {
+    background-color: var(--primary);
+}
+
+h1{
+    color: var(--primary-text);
+    padding-left: 40%;
+    font-family: cursive
+}
+
+h2{
+    color: var(--primary-text);
+    padding-left: 5%;
+    font-family: cursive
+}
+
+nav{
+    border-left: 10px solid var(--secondary-light)
+}
+
+.nav-wrapper {
+    background-color: var(--secondary-dark)
+}
+
+span {
+    color: var(--primary-text-color);
+}
+
+#button1 {
+    background-color: var(--primary-light);
+    color: var(--secondary-text-color);
+
+
+}

@@ -27,19 +27,13 @@
 }
 
 body {
-    background-color: var(--primary);
-}
-
-h1{
-    color: var(--primary-text);
-    padding-left: 40%;
-    font-family: cursive
+    background-color: var(--primary-light);
 }
 
 h2{
     color: var(--primary-text);
     padding-left: 5%;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif
 }
 
 nav{
@@ -48,15 +42,4 @@ nav{
 
 .nav-wrapper {
     background-color: var(--secondary-dark)
-}
-
-span {
-    color: var(--primary-text-color);
-}
-
-#button1 {
-    background-color: var(--primary-light);
-    color: var(--secondary-text-color);
-
-
 }

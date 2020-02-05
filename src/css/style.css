@@ -26,10 +26,6 @@
 
 }
 
-body {
-    background-color: var(--primary-light);
-}
-
 h2{
     color: var(--primary-text);
     padding-left: 5%;
@@ -37,9 +33,21 @@ h2{
 }
 
 nav{
-    border-left: 10px solid var(--secondary-light)
+    border-left: 10px solid var(--primary-light)
 }
 
 .nav-wrapper {
     background-color: var(--secondary-dark)
+}
+
+.check:checked + span{
+    text-decoration: line-through;
+}
+
+#submit-btn{
+    background-color: var(--primary)
+}
+
+#sort-btn{
+    background-color: var(--secondary)
 }

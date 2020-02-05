@@ -2,6 +2,7 @@
 	<html> 
 	    <head>
 			<title>Lab1</title>
+			<meta charset="utf-8" />
 			<!--Links to stylesheets-->
 			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -27,16 +28,30 @@
 				</div>
 			</nav>
 
-			<h2>To-do-List</h2>
-			
-			<div>
-				<input type="text" id="inputtext" value="">
-				<button class="waves-effect waves-light btn" id="submit-btn">Submit</button>
-			</div>
+			<div class="container">
 
-            <ul class="collection" id ="myUL"></ul>
+				<h2>To-do-List</h2>
+				
+				<ul class="collection" id ="myUL"></ul>
+				
+				<div class="row">
+					<div class="input-field col s5"> 
+						<input type="text" class="taskform" id="inputtext" value="" placeholder="Add Task:">
+					</div>
+					<div class="input-field col s5">
+						<input type="date" class="dateform" id="dueDate" value="" placeholder="MM/DD/YYYY">
+					</div>
+					<div class="input-field col s1">
+						<button class="waves-effect waves-light btn" id="submit-btn">Submit</button>
+					</div>
+					<div class="input-field col s1">
+						<button class="waves-effect waves-light btn" id="sort-btn">Sort</button>
+					</div>
+				</div>
+			</div>
 			
 			<!-- Compiled and minified JavaScript -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
             <script src="js/script.js"></script>
 	    </body>
